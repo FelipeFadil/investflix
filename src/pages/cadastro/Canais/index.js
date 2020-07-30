@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
-function CadastroCategoria() {
+function CadastroCanais() {
   const valoresIniciais = {
     nome:'',
     descricao:'',
     cor:'',
-  }
-  const [categorias, setCategorias] = useState([]);
+  };
+  const [canais, setCanais] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
   
 
@@ -27,16 +28,29 @@ function CadastroCategoria() {
       infosDoEvento.target.value
     );
   }
+
+  useEffect(() => {
+    console.log('salve salve salve');
+    const URL = 'http://localhost:8080/Canais';
+    fetch(URL)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCanais([
+          ...resposta,
+        ]);
+      });
+      
+  }, []);
   
 
     return (
       <PageDefault>
-        <h1>Cadastro de categoria: {values.nome}</h1>
+        <h1>Cadastro de canais: {values.nome}</h1>
 
         <form onSubmit={function handleSubmit(infosDoEvento) {
           infosDoEvento.preventDefault();
-          setCategorias([
-            ...categorias,
+          setCanais([
+            ...canais,
             values
           ]);
 
@@ -44,7 +58,7 @@ function CadastroCategoria() {
         }}>
 
           <FormField
-            label="Nome da categoria"
+            label="Nome do Canal"
             type="text"
             name="nome"
             value={values.nome}
@@ -58,18 +72,6 @@ function CadastroCategoria() {
             value={values.descricao}
             onChange={handleChange}
           />
-          
-          {/*<div>
-          <label>
-              Descrição:
-              <textarea
-                type="text"
-                value={values.descricao}
-                name='descricao'
-                onChange={handleChange}
-              />
-            </label>
-          </div>*/}
 
           <FormField
             label="Cor"
@@ -79,29 +81,22 @@ function CadastroCategoria() {
             onChange={handleChange}
           />
 
-          {/*<div>
-          <label>
-              Cor:
-              <input
-                type="color"
-                value={values.cor}
-                name='cor'
-                onChange={handleChange}
-              />
-            </label>
-          </div>*/}
-
-
-          <button>
+          <Button>
             Cadastrar
-          </button>
+          </Button>
         </form>
 
+        {canais.lenght === 0 && (
+          <div>
+            Loading...
+          </div>
+        )}
+
         <ul>
-          {categorias.map((categoria, indice) => {
+          {canais.map((canal) => {
             return (
-              <li key={`${categoria}${indice}`}>
-                {categoria.nome}
+              <li key={`${canal.nome}`}>
+                {canal.nome}
               </li>
             )
           })}  
@@ -115,4 +110,4 @@ function CadastroCategoria() {
     );
   }
 
-  export default CadastroCategoria;
+  export default CadastroCanais;

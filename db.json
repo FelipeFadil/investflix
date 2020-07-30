@@ -1,0 +1,16 @@
+{
+    "Canais": [
+        {
+            "id": 1,
+            "nome": "Jovens de Negocios",
+            "descricao": "",
+            "cor": "#b4b907"
+        },
+        {
+            "id": 2,
+            "nome": "Papo de Bolsa",
+            "descricao": "",
+            "cor": "#152d1d"
+        }
+    ]
+}
