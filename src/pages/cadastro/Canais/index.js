@@ -30,8 +30,9 @@ function CadastroCanais() {
   }
 
   useEffect(() => {
-    console.log('salve salve salve');
-    const URL = 'http://localhost:8080/Canais';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/canais'
+      : 'https://investflix-felipefadil.herokuapp.com/canais';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
