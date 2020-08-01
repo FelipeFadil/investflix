@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCanais() {
   const valoresIniciais = {
@@ -10,24 +11,10 @@ function CadastroCanais() {
     descricao:'',
     cor:'',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [canais, setCanais] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-  
-
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, //nome: 'valor'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -52,15 +39,14 @@ function CadastroCanais() {
           infosDoEvento.preventDefault();
           setCanais([
             ...canais,
-            values
+            values,
           ]);
 
-          setValues(valoresIniciais);
+          clearForm();
         }}>
 
           <FormField
             label="Nome do Canal"
-            type="text"
             name="nome"
             value={values.nome}
             onChange={handleChange}

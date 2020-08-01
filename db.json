@@ -1,16 +1,48 @@
 {
-    "Canais": [
-        {
-            "id": 1,
-            "nome": "Jovens de Negocios",
-            "descricao": "",
-            "cor": "#b4b907"
-        },
-        {
-            "id": 2,
-            "nome": "Papo de Bolsa",
-            "descricao": "",
-            "cor": "#152d1d"
-        }
-    ]
+  "canais": [
+    {
+      "id": 1,
+      "nome": "Jovens de Negocios",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Papo de Bolsa",
+      "cor": "#515151",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "canaiId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 2,
+      "canaiId": 1,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 3,
+      "canaiId": 2,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 4,
+      "canaiId": 2,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    }
+  ]
 }
