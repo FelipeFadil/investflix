@@ -5,8 +5,8 @@
       "nome": "Jovens de Negocios",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     },
     {
@@ -14,8 +14,8 @@
       "nome": "Papo de Bolsa",
       "cor": "#515151",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -23,26 +23,26 @@
     {
       "id": 1,
       "canaiId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "COMO INVESTIR EM AÇÕES e por que ações são o MELHOR investimento que existe?",
+      "url": "https://www.youtube.com/watch?v=u8v0WadRLTE&t=39s"
     },
     {
       "id": 2,
       "canaiId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "OS 5 MELHORES LIVROS SOBRE INVESTIMENTOS que você PRECISA ler",
+      "url": "https://www.youtube.com/watch?v=IXLSvEvHVao"
     },
     {
       "id": 3,
       "canaiId": 2,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "As ações que MAIS PAGARAM dividendos + TOP 3 da minha carteira",
+      "url": "https://www.youtube.com/watch?v=4y6t92I5zzY"
     },
     {
       "id": 4,
       "canaiId": 2,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Sustentáveis e rentáveis: conheça os investimentos ESG",
+      "url": "https://www.youtube.com/watch?v=XUOkvVQatNc"
     }
   ]
 }

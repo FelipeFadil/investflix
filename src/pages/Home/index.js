@@ -1,5 +1,6 @@
+/* eslint-disable max-len */
 import React, { useEffect, useState } from 'react';
-//import dadosIniciais from '../../data/dados_iniciais.json';
+// import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
@@ -10,15 +11,15 @@ function Home() {
 
   useEffect(() => {
     canaisRepository.getAllWithVideos()
-    .then((canaisComVideos) => {
-      //console.log(canaisComVideos);
-      setDadosIniciais(canaisComVideos);
-    })
-    .catch((err) => {
-      console.log(err.message)
-    });
+      .then((canaisComVideos) => {
+      // console.log(canaisComVideos);
+        setDadosIniciais(canaisComVideos);
+      })
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.log(err.message);
+      });
   }, []);
-
 
   return (
     <PageDefault paddingAll={0}>
@@ -31,7 +32,7 @@ function Home() {
               <BannerMain
                 videoTitle="PROGRAMADORES, COMO ESTÁ SUA EDUCAÇÃO FINANCEIRA?"
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription="iuaheiuaheiuhaiue"
+                videoDescription=""
               />
               <Carousel
                 ignoreFirstVideo
@@ -66,15 +67,15 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.canais[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.canais[3]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.canais[4]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.canais[5]}
