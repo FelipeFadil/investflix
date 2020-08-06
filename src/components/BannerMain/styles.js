@@ -46,6 +46,7 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  font-size: 24px;
   @media (max-width: 800px) {
     display: none;
   }
@@ -53,7 +54,7 @@ ContentAreaContainer.Description = styled.p`
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 40px;
   line-height: 1;
   margin-top: 0;

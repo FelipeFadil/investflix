@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nome": "Jovens de Negocios",
-      "cor": "#6BD1FF",
+      "cor": "#FFFF00",
       "link_extra": {
         "text": "",
         "url": ""
@@ -12,12 +12,85 @@
     {
       "id": 2,
       "nome": "Papo de Bolsa",
-      "cor": "#515151",
+      "cor": "#2E8B57",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "nome": "O Primo Rico",
+      "cor": "#FF4500",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Me poupe!",
+      "cor": "#FF8C00",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Financeiro",
+      "cor": "#008000",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Favelado Investidor",
+      "cor": "#DAA520",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Tiago Reis",
+      "cor": "#6495ED",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Já investiu hoje?",
+      "cor": "#F5DEB3",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Arthur Vieira de Moraes",
+      "cor": "#ADD8E6",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Filmes e Séries",
+      "cor": "#4169E1",
       "link_extra": {
         "text": "",
         "url": ""
       }
     }
+    
   ],
   "videos": [
     {
@@ -34,15 +107,561 @@
     },
     {
       "id": 3,
+      "canaiId": 1,
+      "titulo": "6 COISAS QUE VOCÊ DEVERIA PERDER SEU TEMPO",
+      "url": "https://www.youtube.com/watch?v=oiSKCGFN07k"
+    },
+    {
+      "id": 4,
+      "canaiId": 1,
+      "titulo": "COMO DIVERSIFICAR SUA CARTEIRA DE AÇÕES | Os 4 critérios que eu uso",
+      "url": "https://www.youtube.com/watch?v=xa-uBjPyAaI"
+    },
+    {
+      "id": 5,
+      "canaiId": 1,
+      "titulo": "COMO COMEÇAR A INVESTIR | O passo a passo COMPLETO (com e-book gratuito)",
+      "url": "https://www.youtube.com/watch?v=PtAkxzMhobQ"
+    },
+    {
+      "id": 6,
+      "canaiId": 1,
+      "titulo": "Como declarar AÇÕES ESTRANGEIRAS no Imposto de Renda 2020 compradas na AVENUE",
+      "url": "https://www.youtube.com/watch?v=nFvaFN2Vhas"
+    },
+    {
+      "id": 7,
+      "canaiId": 1,
+      "titulo": "Como declarar FUNDOS IMOBILIÁRIOS (FIIs) no Imposto de Renda 2020 | Declarando FIIs NA PRÁTICA",
+      "url": "https://www.youtube.com/watch?v=kz9lEScu0Wo"
+    },
+    {
+      "id": 8,
+      "canaiId": 1,
+      "titulo": "TUDO sobre como declarar AÇÕES no Imposto de Renda 2020 | Declarando ações NA PRÁTICA no IRPF",
+      "url": "https://www.youtube.com/watch?v=w3fqJ_G-8Mw"
+    },
+    {
+      "id": 9,
+      "canaiId": 1,
+      "titulo": "COMO ANALISAR UMA AÇÃO | Como escolher empresas para investir",
+      "url": "https://www.youtube.com/watch?v=VF8Z7ZwCFQ0"
+    },
+    {
+      "id": 10,
+      "canaiId": 1,
+      "titulo": "Os 2 ÚNICOS momentos em que devemos VENDER uma AÇÃO",
+      "url": "https://www.youtube.com/watch?v=QB1Z-8gB2aw"
+    },
+    {
+      "id": 11,
+      "canaiId": 2,
+      "titulo": "RESUMES DE JULHO | Novidade no Tesouro Direto, disputa por OIBR3 e temporada de resultados do 2T20",
+      "url": "https://www.youtube.com/watch?v=WGLS21OppLg"
+    },
+    {
+      "id": 12,
+      "canaiId": 2,
+      "titulo": "FLRY3 teve PREJUÍZO no 2T20. Devo me preocupar com as ações?",
+      "url": "https://www.youtube.com/watch?v=gOZ0qNWe6Hk"
+    },
+    {
+      "id": 13,
       "canaiId": 2,
       "titulo": "As ações que MAIS PAGARAM dividendos + TOP 3 da minha carteira",
       "url": "https://www.youtube.com/watch?v=4y6t92I5zzY"
     },
     {
-      "id": 4,
+      "id": 14,
+      "canaiId": 2,
+      "titulo": "2T20 de NEOE3: resultado do trimestre MAIS ESPERADO do ano",
+      "url": "https://www.youtube.com/watch?v=op7pWzhw9jk"
+    },
+    {
+      "id": 15,
       "canaiId": 2,
       "titulo": "Sustentáveis e rentáveis: conheça os investimentos ESG",
-      "url": "https://www.youtube.com/watch?v=XUOkvVQatNc"
+      "url": "https://www.youtube.com/watch?v=XUOkvVQatNc&t=1s"
+    },
+    {
+      "id": 16,
+      "canaiId": 2,
+      "titulo": "CAPEX: entenda o indicador que NÃO pode faltar na sua análise de ações",
+      "url": "https://www.youtube.com/watch?v=Ru0Og9aN9wg"
+    },
+    {
+      "id": 17,
+      "canaiId": 2,
+      "titulo": "CAGR: como identificar uma ação de crescimento rápido",
+      "url": "https://www.youtube.com/watch?v=IZOjLnYoeH8"
+    },
+    {
+      "id": 18,
+      "canaiId": 2,
+      "titulo": "Análise de ações: por que olhar o famoso EBITDA?",
+      "url": "https://www.youtube.com/watch?v=YfpsDAhndAc"
+    },
+    {
+      "id": 19,
+      "canaiId": 2,
+      "titulo": "ROE e ROIC: descubra se as empresas da sua carteira de ações são rentáveis",
+      "url": "https://www.youtube.com/watch?v=EVDx-2ar1Yk"
+    },
+    {
+      "id": 20,
+      "canaiId": 2,
+      "titulo": "Pagadoras de dividendos: qual o preço aceitável de uma ação?",
+      "url": "https://www.youtube.com/watch?v=JDk8hfis0_0"
+    },
+    {
+      "id": 21,
+      "canaiId": 3,
+      "titulo": "URGENTE! TAXA SELIC CAIU PRA 2%! A POUPANÇA FICOU MELHOR QUE O TESOURO? E o impacto nas suas AÇÕES!",
+      "url": "https://www.youtube.com/watch?v=Ub2lZw3VFpE&t=2s"
+    },
+    {
+      "id": 22,
+      "canaiId": 3,
+      "titulo": "ITAUSA (ITSA4) ESTÁ BARATA? | Calculando o PREÇO JUSTO de uma ação NA PRÁTICA!",
+      "url": "https://www.youtube.com/watch?v=GyEVGyCa5xk"
+    },
+    {
+      "id": 23,
+      "canaiId": 3,
+      "titulo": "A ARCA: Como INVESTIR pra SOBREVIVER a QUALQUER CRISE (e ainda ganhar dinheiro)",
+      "url": "https://www.youtube.com/watch?v=PPYg9hef0Yg"
+    },
+    {
+      "id": 24,
+      "canaiId": 3,
+      "titulo": "6 COISAS QUE VOCÊ NÃO DEVE PERDER SEU TEMPO! (mas que você pode estar perdendo)",
+      "url": "https://www.youtube.com/watch?v=TvLL4fGia9E"
+    },
+    {
+      "id": 25,
+      "canaiId": 3,
+      "titulo": "BOLSA ESTÁ DE VOLTA AOS 100 MIL! | E agora: ela está barata? Ou o pior está por vir?",
+      "url": "https://www.youtube.com/watch?v=nX6ZIQM3QMA"
+    },
+    {
+      "id": 26,
+      "canaiId": 3,
+      "titulo": "PAULO GUEDES QUER TAXAR OS DIVIDENDOS! E agora? O que vai mudar nos investimentos?",
+      "url": "https://www.youtube.com/watch?v=ldPFj_B5Sio&t=3s"
+    },
+    {
+      "id": 27,
+      "canaiId": 3,
+      "titulo": "10 PRINCÍPIOS de WARREN BUFFETT! | p/ investir MELHOR e ganhar mais dinheiro!",
+      "url": "https://www.youtube.com/watch?v=spqYMJe7XIs"
+    },
+    {
+      "id": 28,
+      "canaiId": 3,
+      "titulo": "OS 6 TIPOS DE EMPRESAS NA BOLSA DE VALORES – e como analisar cada uma delas",
+      "url": "https://www.youtube.com/watch?v=SJH9xx1-DYI"
+    },
+    {
+      "id": 29,
+      "canaiId": 3,
+      "titulo": "Não olhe para o P/L antes de olhar esse INDICADOR! (PEG Ratio)",
+      "url": "https://www.youtube.com/watch?v=6oPunZq7_LU"
+    },
+    {
+      "id": 30,
+      "canaiId": 3,
+      "titulo": "Os donos das EMPRESAS DA BOLSA estão VENDENDO SUAS AÇÕES na crise?",
+      "url": "https://www.youtube.com/watch?v=xRH0bOk1dM4"
+    },
+    {
+      "id": 31,
+      "canaiId": 4,
+      "titulo": "5 Caminhos POSSÍVEIS pra quem PERDEU O EMPREGO na pandemia! (Não é receita mágica!)",
+      "url": "https://www.youtube.com/watch?v=ucGORMF-Aro"
+    },
+    {
+      "id": 32,
+      "canaiId": 4,
+      "titulo": "MODALMAIS + CREDIT SUISSE: E O QUE VOCÊ GANHA COM ISSO?",
+      "url": "https://www.youtube.com/watch?v=fqRya5IPwrU"
+    },
+    {
+      "id": 33,
+      "canaiId": 4,
+      "titulo": "3 SEGREDOS DA MENTE UNIVERSITÁRIA MILIONÁRIA! O 1º segredo é o mais difícil!",
+      "url": "https://www.youtube.com/watch?v=MziFPb2SbUc"
+    },
+    {
+      "id": 34,
+      "canaiId": 4,
+      "titulo": "COMO eu ganhei R$45 MIL EM TRÊS HORAS: a compra do meu apartamento à vista",
+      "url": "https://www.youtube.com/watch?v=t7n7Kn7ujh4"
+    },
+    {
+      "id": 35,
+      "canaiId": 4,
+      "titulo": "10 DICAS PRA ECONOMIZAR MUITO MAIS no supermercado! Economize R$1.440 com isso!",
+      "url": "https://www.youtube.com/watch?v=dkQNvaRZyKs"
+    },
+    {
+      "id": 36,
+      "canaiId": 4,
+      "titulo": "DÍVIDA DE MAIS DE 800 MIL REAIS QUITADA COM 42 MIL? Como ela fez isso? Passo a passo pra você copiar",
+      "url": "https://www.youtube.com/watch?v=tk0D6tnbo2I"
+    },
+    {
+      "id": 37,
+      "canaiId": 4,
+      "titulo": "COMO COMEÇAR A INVESTIR? Passo a passo prático e completo! Nath Me Ajuda #53",
+      "url": "https://www.youtube.com/watch?v=H-UyKqs2qBU"
+    },
+    {
+      "id": 38,
+      "canaiId": 4,
+      "titulo": "ONDE DEIXAR A RESERVA DE EMERGÊNCIA PÓS-COVID? Adeus Tesouro SELIC!",
+      "url": "https://www.youtube.com/watch?v=dokj_p3lU_0"
+    },
+    {
+      "id": 39,
+      "canaiId": 4,
+      "titulo": "5 lições DOS MEUS MENTORES que turbinaram A ME POUPE! (E que eu preciso te ensinar AGORA)",
+      "url": "https://www.youtube.com/watch?v=MCX8hwdu1lw"
+    },
+    {
+      "id": 40,
+      "canaiId": 4,
+      "titulo": "TOP 5 AÇÕES QUE MAIS VALORIZARAM NA QUARENTENA! (Alta de mais de 130%???)",
+      "url": "https://www.youtube.com/watch?v=Qm25cdjSqA0"
+    },
+    {
+      "id": 41,
+      "canaiId": 5,
+      "titulo": "A NOTA DE 200 REAIS! | #SEGUNDAINSPIRAÇÃO",
+      "url": "https://www.youtube.com/watch?v=LapaMl6caz8"
+    },
+    {
+      "id": 42,
+      "canaiId": 5,
+      "titulo": "O QUE É FMI? | #SEXTABASICA",
+      "url": "https://www.youtube.com/watch?v=X5g2ydIxx04"
+    },
+    {
+      "id": 43,
+      "canaiId": 5,
+      "titulo": "CPMF: POR QUE ISSO NÃO É UMA BOA IDEIA! | #OCALLDAQUARTA",
+      "url": "https://www.youtube.com/watch?v=6IMFPyM7dkM"
+    },
+    {
+      "id": 44,
+      "canaiId": 5,
+      "titulo": "COMO INVESTIR NA BOLSA DOS EUA? | O Call da Quarta",
+      "url": "https://www.youtube.com/watch?v=MjdB8fPJYJ8"
+    },
+    {
+      "id": 45,
+      "canaiId": 5,
+      "titulo": "O QUE É O BANCO MUNDIAL? | Sexta Básica",
+      "url": "https://www.youtube.com/watch?v=1P2EM-to2Ow"
+    },
+    {
+      "id": 46,
+      "canaiId": 5,
+      "titulo": "PORQUE O DÓLAR SOBE E DESCE TANTO? | Sexta Básica - Pra você entender o câmbio!",
+      "url": "https://www.youtube.com/watch?v=9VPzwJlA3PA"
+    },
+    {
+      "id": 47,
+      "canaiId": 5,
+      "titulo": "A CULPA É DA COVID? | Segunda Inspiração",
+      "url": "https://www.youtube.com/watch?v=88WX4rPOrrk"
+    },
+    {
+      "id": 48,
+      "canaiId": 5,
+      "titulo": "INFLAÇÃO | Sexta Básica",
+      "url": "https://www.youtube.com/watch?v=3An8pcxOa_o"
+    },
+    {
+      "id": 49,
+      "canaiId": 5,
+      "titulo": "PRECISO DE DÓLARES! | Call da Quarta",
+      "url": "https://www.youtube.com/watch?v=gpPOmwlQBg0"
+    },
+    {
+      "id": 50,
+      "canaiId": 6,
+      "titulo": "PRECISA DE MUITO DINHEIRO PARA COMEÇAR A INVESTIR? VEJA SE VOCÊ TEM DINHEIRO SUFICIENTE",
+      "url": "https://www.youtube.com/watch?v=1pOG_9orNIY"
+    },
+    {
+      "id": 51,
+      "canaiId": 6,
+      "titulo": "DIVIDENDOS NA PRÁTICA | O QUE É DATA EX E DATA COM",
+      "url": "https://www.youtube.com/watch?v=JEAX4FFGkIg"
+    },
+    {
+      "id": 52,
+      "canaiId": 6,
+      "titulo": "REVELANDO UMA DAS MINHAS FONTES DE RENDA | FIZ MUITO DINHEIRO EM DÓLAR",
+      "url": "https://www.youtube.com/watch?v=bzKyXFi53PQ"
+    },
+    {
+      "id": 53,
+      "canaiId": 6,
+      "titulo": "3 INVESTIMENTOS SEGUROS PARA INICIANTES (COMECE COM POUCO DINHEIRO)",
+      "url": "https://www.youtube.com/watch?v=8Dd1M9r_MKk"
+    },
+    {
+      "id": 54,
+      "canaiId": 6,
+      "titulo": "COMO ESCOLHER UMA CORRETORA | XP, Rico, Clear, Easynvest, Inter | É CONFIÁVEL?",
+      "url": "https://www.youtube.com/watch?v=hO_xVvxTkIw"
+    },
+    {
+      "id": 55,
+      "canaiId": 6,
+      "titulo": "COMO JUNTAR 6 MIL REAIS EM 52 SEMANAS (MÉTODO INFALÍVEL) | COMECEI COM 5 REAIS",
+      "url": "https://www.youtube.com/watch?v=43dWLfmPv3s"
+    },
+    {
+      "id": 56,
+      "canaiId": 6,
+      "titulo": "RESERVA DE EMERGÊNCIA (FAÇA SUA RESERVA DIREITO) | FAVELADO INVESTIDOR",
+      "url": "https://www.youtube.com/watch?v=P2fOAckVhrc"
+    },
+    {
+      "id": 57,
+      "canaiId": 6,
+      "titulo": "3 VANTAGENS EM INVESTIR EM FUNDOS IMOBILIÁRIOS (RENDIMENTOS MENSAIS)",
+      "url": "https://www.youtube.com/watch?v=VHGn0zD3sCE"
+    },
+    {
+      "id": 58,
+      "canaiId": 6,
+      "titulo": "OS 6 PRINCIPAIS INVESTIMENTOS (APRENDA COMO FUNCIONA)",
+      "url": "https://www.youtube.com/watch?v=E65dgD5La2E"
+    },
+    {
+      "id": 59,
+      "canaiId": 7,
+      "titulo": "TOP 10 FATOS SOBRE BTG Pactual (BPAC11) | Veja ESTE vídeo ANTES de investir no Banco BTG",
+      "url": "https://www.youtube.com/watch?v=pV9vjcKH88M"
+    },
+    {
+      "id": 60,
+      "canaiId": 7,
+      "titulo": "TOP indicadores para BANCOS | Quais os melhores indicadores para avaliar setor bancário?",
+      "url": "https://www.youtube.com/watch?v=tT_v03xfhz8"
+    },
+    {
+      "id": 61,
+      "canaiId": 7,
+      "titulo": "Como Analisar um FII? Qual melhor indicador de fundos imobiliários para Estudar?",
+      "url": "https://www.youtube.com/watch?v=9edXnnNJXg0"
+    },
+    {
+      "id": 62,
+      "canaiId": 7,
+      "titulo": "Como DESCOBRIR os MELHORES FIIs para INVESTIR? COMO saber se vale a pena investir Fundo Imobiliário?",
+      "url": "https://www.youtube.com/watch?v=3aRqmbbdzlY"
+    },
+    {
+      "id": 63,
+      "canaiId": 7,
+      "titulo": "O que é PEG RATIO? Como calcular e qual o seu significado? Por que NÃO utilizamos esse índice",
+      "url": "https://www.youtube.com/watch?v=VofgFxZhnn0"
+    },
+    {
+      "id": 64,
+      "canaiId": 7,
+      "titulo": "O que é venda coberta? Opções de ações vale a pena? Tudo sobre o que são derivativos",
+      "url": "https://www.youtube.com/watch?v=AXUgv2ptgIc"
+    },
+    {
+      "id": 65,
+      "canaiId": 7,
+      "titulo": "FORMA mais FÁCIL de investir no EXTERIOR | Tudo sobre o #IVVB11 | Investindo nos EUA",
+      "url": "https://www.youtube.com/watch?v=e8pQBkBHMcY"
+    },
+    {
+      "id": 66,
+      "canaiId": 7,
+      "titulo": "Como Analisar um Balanço de uma empresa? #TBT",
+      "url": "https://www.youtube.com/watch?v=4f1xFZ-oLd4"
+    },
+    {
+      "id": 67,
+      "canaiId": 7,
+      "titulo": "Sócio da BOLSA? O que analisar na B3 (B3SA3) | Vale a pena investir na Bolsa, Brasil, Balcão?",
+      "url": "https://www.youtube.com/watch?v=4sYbWVPMUKI"
+    },
+    {
+      "id": 68,
+      "canaiId": 7,
+      "titulo": "VVAR3 vale a pena? Desempenho da Via Varejo no 1ºT/2020 | TUDO sobre a ação VVAR3",
+      "url": "https://www.youtube.com/watch?v=bYrok2HrmIM"
+    },
+    {
+      "id": 69,
+      "canaiId": 7,
+      "titulo": "ITSA4 está barato? Como fazer valuation de ITAÚSA | Vale comprar ações ITSA4?",
+      "url": "https://www.youtube.com/watch?v=dFSzCQNvm9s"
+    },
+    {
+      "id": 70,
+      "canaiId": 8,
+      "titulo": "SNOWFLAKE GGRC11 - Análise de GGR Covepi Renda FII",
+      "url": "https://www.youtube.com/watch?v=Y_Z8h-mjIWs&t=664s"
+    },
+    {
+      "id": 71,
+      "canaiId": 8,
+      "titulo": "O Banco MAIS BARATO da bolsa? - Valuation de Banco do Brasil (BBAS3)",
+      "url": "https://www.youtube.com/watch?v=KFmnAz3mP2Y"
+    },
+    {
+      "id": 72,
+      "canaiId": 8,
+      "titulo": "VIA VAREJO (VVAR3) - O que eu penso sobre? (ANÁLISE)",
+      "url": "https://www.youtube.com/watch?v=3ikobcdxBtQ"
+    },
+    {
+      "id": 73,
+      "canaiId": 8,
+      "titulo": "Valuation da MELHOR TRANSMISSORA de Energia da Bolsa - ISA CTEEP (TRPL4)",
+      "url": "https://www.youtube.com/watch?v=G_FU-D5oCEs"
+    },
+    {
+      "id": 74,
+      "canaiId": 8,
+      "titulo": "ANALISANDO DIVIDENDOS NA PRÁTICA",
+      "url": "https://www.youtube.com/watch?v=QRiL_xr6jC8"
+    },
+    {
+      "id": 75,
+      "canaiId": 8,
+      "titulo": "INVESTIR EM DIVIDENDOS - VALE A PENA?",
+      "url": "https://www.youtube.com/watch?v=ejiXDOpgHoQ"
+    },
+    {
+      "id": 76,
+      "canaiId": 8,
+      "titulo": "MARGEM BRUTA - O que é e como analisar?",
+      "url": "https://www.youtube.com/watch?v=sJxKKXRkYno"
+    },
+    {
+      "id": 77,
+      "canaiId": 8,
+      "titulo": "MARGEM LÍQUIDA - O que é e como analisar?",
+      "url": "https://www.youtube.com/watch?v=f7PjSK3xZag"
+    },
+    {
+      "id": 78,
+      "canaiId": 8,
+      "titulo": "ESCOLHENDO FUNDOS IMOBILIÁRIOS (FIIs) 🏢",
+      "url": "https://www.youtube.com/watch?v=g40IN7NsMoY"
+    },
+    {
+      "id": 79,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes - Resumo e comentário (24/07 - 31/07/20)",
+      "url": "https://www.youtube.com/watch?v=Fv5nwdMHujw"
+    },
+    {
+      "id": 80,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes e destaques da semana [20/07 - 24/07/20]",
+      "url": "https://www.youtube.com/watch?v=sHycrlLY-NA"
+    },
+    {
+      "id": 81,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes e destaques da semana de 13/07 a 17/07",
+      "url": "https://www.youtube.com/watch?v=Whhjka3kkxY&t=233s"
+    },
+    {
+      "id": 82,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes e destaques da semana (06/07 a 10/07/2020)",
+      "url": "https://www.youtube.com/watch?v=QxqhlOrTPPQ"
+    },
+    {
+      "id": 83,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes (29/06 a 03/07) resumidos e comentados",
+      "url": "https://www.youtube.com/watch?v=lM_wxR6NrCA"
+    },
+    {
+      "id": 84,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes e destaques - resumidos e comentados (22 a 26/06/2020)",
+      "url": "https://www.youtube.com/watch?v=nRUc2z-YdGo"
+    },
+    {
+      "id": 85,
+      "canaiId": 9,
+      "titulo": "Fatos relevantes resumidos e comentados - 15 a 19/06",
+      "url": "https://www.youtube.com/watch?v=h5DnWKZl3PA"
+    },
+    {
+      "id": 86,
+      "canaiId": 9,
+      "titulo": "Fatos relevantes (05/06 a 12/06/2020) resumidos e comentados",
+      "url": "https://www.youtube.com/watch?v=AhFyYePOlW0"
+    },
+    {
+      "id": 87,
+      "canaiId": 9,
+      "titulo": "Fatos Relevantes resumidos e comentados (29/05 a 05/06/2020)",
+      "url": "https://www.youtube.com/watch?v=0PSe-u7ZHRQ"
+    },
+    {
+      "id": 88,
+      "canaiId": 10,
+      "titulo": "Uma Mente Brilhante (A Beautiful Mind 2001) - Trailer Legendado",
+      "url": "https://www.youtube.com/watch?v=q8vUMD1f0ss"
+    },
+    {
+      "id": 89,
+      "canaiId": 10,
+      "titulo": "Wall Street Poder e Cobiça | 1987 | Trailer HD Legendado | Wall Street",
+      "url": "https://www.youtube.com/watch?v=MlUD-h2jWZo"
+    },
+    {
+      "id": 90,
+      "canaiId": 10,
+      "titulo": "Billions - Trailer Oficial (Legendado)",
+      "url": "https://www.youtube.com/watch?v=Sjjl8urUO-c"
+    },
+    {
+      "id": 91,
+      "canaiId": 10,
+      "titulo": "O Lobo de Wall Street - Trailer oficial legendado",
+      "url": "https://www.youtube.com/watch?v=PoSCUsNQVtw"
+    },
+    {
+      "id": 92,
+      "canaiId": 10,
+      "titulo": "A Grande Aposta | Trailer | Leg | Paramount Pictures Brasil",
+      "url": "https://www.youtube.com/watch?v=c1LRnKrmXr0"
+    },
+    {
+      "id": 93,
+      "canaiId": 10,
+      "titulo": "Margin Call - O Dia Antes do Fim - Trailer Legendado",
+      "url": "https://www.youtube.com/watch?v=8gYR2-ktvxg"
+    },
+    {
+      "id": 94,
+      "canaiId": 10,
+      "titulo": "Trailer Oficial Português - INSIDE JOB - A VERDADE DA CRISE",
+      "url": "https://www.youtube.com/watch?v=tytH0CQSsXo"
+    },
+    {
+      "id": 95,
+      "canaiId": 10,
+      "titulo": "Silicon Valley Temporada 1 | Trailer",
+      "url": "https://www.youtube.com/watch?v=lqgM8ZdAqKo"
     }
   ]
 }

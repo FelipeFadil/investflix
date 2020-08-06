@@ -32,7 +32,7 @@ function Home() {
               <BannerMain
                 videoTitle="PROGRAMADORES, COMO ESTÁ SUA EDUCAÇÃO FINANCEIRA?"
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription=""
+                videoDescription="Esses são alguns dos canais que me ajudaram a investir melhor meu dinheiro"
               />
               <Carousel
                 ignoreFirstVideo
